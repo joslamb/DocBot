@@ -1,0 +1,11 @@
+[
+  {
+    "name": "registrar_consulta",
+    "expressions": ["(registrar|añadir|agregar|iniciar).*(consulta|paciente|atencion)"]
+  },
+  {
+    "name": "ver_historial",
+    "expressions": ["(ver|consultar|mostrar|revisar).*(historial|expediente|datos)"]
+  }
+
+]

@@ -13,7 +13,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/docApi/messages")
 public class MockMessageController {
 
-    @Autowired MessageService messageService;
+    @Autowired
+    MessageService messageService;
 
     @PostMapping("/messageHandler")
     public ResponseEntity<MockMessageDTO> incomingMessage (@RequestBody MockMessageDTO message){
