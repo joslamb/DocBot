@@ -29,7 +29,7 @@ http://localhost:8080
 ## Testing with Postman
 
 Currently, this development version uses Spanish language with medical technical terms.
-You can customize the intentions in the file intentions.json.
+You can customize the intentions in the file 'intentions.json' using REGEX.
 
 ```
 {
